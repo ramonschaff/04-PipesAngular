@@ -17,6 +17,6 @@ export class NoComunesComponent  {
   }
 
 //i18nPlural
-clientes:string[]=['Maria','Pedro'];
+clientes:string[]=['Maria','Pedro','Juan'];
 
 }
