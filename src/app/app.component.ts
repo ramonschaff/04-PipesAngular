@@ -19,5 +19,5 @@ export class AppComponent {
     console.log(this.obj);
   
   }
-  
+  mmmmmm
 }

@@ -6,14 +6,13 @@ import { AppComponent } from './app.component';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import { SharedModule } from './shared/shared.module';
 import { VentasModule } from './ventas/ventas.module';
-import { KkComponent } from './kk/kk.component';
+
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    KkComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
