@@ -18,7 +18,7 @@ export class AppComponent {
     console.log(this.nombre);
     console.log(this.valor);
     console.log(this.obj);
-   
+   khkhk
     
   }
   
