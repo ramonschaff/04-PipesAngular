@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import { SharedModule } from './shared/shared.module';
 import { VentasModule } from './ventas/ventas.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 
 
@@ -20,7 +21,8 @@ import { VentasModule } from './ventas/ventas.module';
     PrimeNgModule,
     SharedModule,
     AppRoutingModule,
-    VentasModule
+    VentasModule,
+    BrowserAnimationsModule
     
   ],
   providers: [
