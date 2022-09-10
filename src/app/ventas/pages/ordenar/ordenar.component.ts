@@ -12,6 +12,7 @@ export class OrdenarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ordenarPor:string='';
   enMayusculas:boolean=true;
   heroes: Heroe[]=[
     {
@@ -44,11 +45,14 @@ export class OrdenarComponent implements OnInit {
       vuela: true,
       color: Color.rojo
     }
-  ]
-
-  ordenarPor:string='';
-  
+  ]  
   cambiar(){
     this.enMayusculas=!this.enMayusculas;
+  }
+
+  cambiarOrden(valor:string){
+    this.ordenarPor=valor;
+ 
+    
   }
 }
